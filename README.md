@@ -9,7 +9,7 @@ This is a test for api platfrom for todo lists fuctionalities
 ## Steps of Installation
 
 - ```git clone https://github.com/amsalu-tadesse/todolist-exam.git```
-- ```cd symfony-api```
+- ```cd todolist-exam```
 - update .env according to your database credentials
 - composer install
 - run ```bin/console doctrine:database:create``` to create database
