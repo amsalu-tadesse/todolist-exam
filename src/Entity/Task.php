@@ -5,36 +5,23 @@ namespace App\Entity;
 use App\Repository\TaskRepository;
 use Doctrine\ORM\Mapping as ORM;
 use ApiPlatform\Core\Annotation\ApiResource;
-use App\Controller\TodolistController;
-
-
-
 
 
 /**
  *
  * @ApiResource(
- *     collectionOperations={"get", "post"},
+ *     collectionOperations={
+ *  "get"={
+ *             "method"="GET",
+ *             "order"={"id": "DESC"}
+ *         },
+ *  "post"
+ * },
  *     itemOperations={
  *         "get", 
  *         "put", 
- *         "delete",
- *         "updatestatus"={
- *             "method"="PUT",
- *             "path"="/tasks/{id}/status",
-  *             "swagger_context"={
- *                 "summary"="Update the status of a Task",
- *                 "responses"={
- *                     "200"={
- *                         "description"="Task status updated successfully"
- *                     },
- *                     "404"={
- *                         "description"="Task not found"
- *                     }
- *                 }
- *             }
- *         }
- *     }
+ *         "delete"
+ * }
  * )
  * 
  * @ORM\Entity(repositoryClass=TaskRepository::class)
