@@ -1,6 +1,6 @@
 
 
-<img src="public/img/page.png" >
+<img src="public/img/exam.png" >
  
 
 ## Symfony api platform
