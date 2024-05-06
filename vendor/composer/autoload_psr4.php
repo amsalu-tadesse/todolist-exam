@@ -82,6 +82,7 @@ return array(
     'Symfony\\Bridge\\PhpUnit\\' => array($vendorDir . '/symfony/phpunit-bridge'),
     'Symfony\\Bridge\\Monolog\\' => array($vendorDir . '/symfony/monolog-bridge'),
     'Symfony\\Bridge\\Doctrine\\' => array($vendorDir . '/symfony/doctrine-bridge'),
+    'Sensio\\Bundle\\FrameworkExtraBundle\\' => array($vendorDir . '/sensio/framework-extra-bundle/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Link\\' => array($vendorDir . '/psr/link/src'),
     'Psr\\EventDispatcher\\' => array($vendorDir . '/psr/event-dispatcher/src'),
@@ -90,6 +91,8 @@ return array(
     'ProxyManager\\' => array($vendorDir . '/friendsofphp/proxy-manager-lts/src/ProxyManager'),
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
     'PHPStan\\PhpDocParser\\' => array($vendorDir . '/phpstan/phpdoc-parser/src'),
+    'Nelmio\\CorsBundle\\' => array($vendorDir . '/nelmio/cors-bundle'),
+    'Negotiation\\' => array($vendorDir . '/willdurand/negotiation/src/Negotiation'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'Laminas\\Code\\' => array($vendorDir . '/laminas/laminas-code/src'),
     'Egulias\\EmailValidator\\' => array($vendorDir . '/egulias/email-validator/src'),
@@ -111,4 +114,5 @@ return array(
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'App\\Tests\\' => array($baseDir . '/tests'),
     'App\\' => array($baseDir . '/src'),
+    'ApiPlatform\\' => array($vendorDir . '/api-platform/core/src'),
 );
